@@ -29,6 +29,7 @@
         <a href="#" class="hover:text-red-400">About</a>
         <a href="resources\views\about.blade.php" class="hover:text-red-400">Projects</a>
         <a href="#" class="hover:text-red-400">Contacts</a>
+        <a href="{{ route('articles.index') }}" class="hover:text-red-400">Blog</a>
       </nav>
     </header>
 
